@@ -3,7 +3,6 @@ import v1Router from "./routers/v1/index.router.js";
 import { serverConfig } from "./config/index.js";
 import {
   appErrorHandler,
-  // appErrorHandler,
   genericErrorHandler,
 } from "./middlewares/error.middleware.js";
 import logger from "./config/logger.config.js";
